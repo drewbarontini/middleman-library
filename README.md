@@ -1,7 +1,7 @@
 Baseman Helpers
 ===============
 
-A collection of useful helper methods for use in [Baseman](http://github.com/drewbarontini/baseman/)(Middleman).
+A collection of useful helper methods for use in [Baseman](http://github.com/drewbarontini/baseman/) (Middleman starter application).
 
 Active Page
 -----------
