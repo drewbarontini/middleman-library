@@ -37,6 +37,21 @@ Next, use the `get_resources` method to select the pages with the `type` attribu
 
 **Note**: By default, the `get_resources` method grabs files with the `type` attribute of `page`.
 
+Pretty Date
+-----------
+
+The `pretty_date` method formats a date string into a nicely formatted one.
+
+```haml
+%time= pretty_date('2014-12-18')
+```
+
+Which compiles to:
+
+```haml
+<time>December 12, 2014</time>
+```
+
 Slugify
 -------
 

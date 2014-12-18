@@ -29,6 +29,20 @@ helpers do
     sitemap.resources.select { |resource| resource.data.type == type }
   end
 
+  # Formats a date string
+  #
+  # == Parameters
+  #
+  # * +date+ - The date string to format
+  #
+  # == Usage
+  #
+  #   pretty_date('2015-01-01')
+  #
+  def pretty_date(date)
+    date.strftime('%B %d, %Y')
+  end
+
   # Turns a string into a slugable string
   #
   # == Parameters
