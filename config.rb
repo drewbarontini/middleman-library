@@ -18,7 +18,7 @@ helpers do
   #
   # == Parameters
   #
-  # * +type+ - The type of resource to get (defaults to 'page')
+  # * +type+ - The Frontmatter type of resource to get (defaults to 'page')
   #
   # == Usage
   #
