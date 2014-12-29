@@ -61,7 +61,7 @@ Let's say that we want to turn the page title's we got in the block above into s
 
 ```haml
 - get_resources.each do |page|
-  %h1= slugify( page.data.title )
+  %h1= slugify(page.data.title)
 ```
 
 `Page Title` would then become `page-title`.
