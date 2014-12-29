@@ -57,7 +57,7 @@ Slugify
 
 This is a common method used across a variety of programming languages, and it's used to take a string and turn it into a sluggable title that can, for instance, be used in a URL.
 
-Let's say that we want to turn the page title's we got in the block above into slugs.
+Let's say that we want to turn the page titles returned in the block above into slugs.
 
 ```haml
 - get_resources.each do |page|
