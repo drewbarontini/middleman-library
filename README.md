@@ -1,10 +1,12 @@
 Middleman Helpers
 =================
 
-A collection of useful helper methods for use in [Middleman](https://middlemanapp.com/) and [Baseman](http://github.com/drewbarontini/baseman/) (Middleman starter application).
+A collection of useful Middleman snippets for use in [Middleman](https://middlemanapp.com/) and [Baseman](http://github.com/drewbarontini/baseman/) (Middleman starter application).
 
 config.rb
 ---------
+
+A collection of helper methods for use inside of `config.rb`.
 
 ### Active Page
 
