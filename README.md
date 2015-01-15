@@ -3,8 +3,10 @@ Middleman Helpers
 
 A collection of useful helper methods for use in [Middleman](https://middlemanapp.com/) and [Baseman](http://github.com/drewbarontini/baseman/) (Middleman starter application).
 
-Active Page
------------
+config.rb
+---------
+
+### Active Page
 
 The `is_page_active` method checks to see if the current page is active so that you can apply an active class to an element.
 
@@ -14,8 +16,7 @@ The `is_page_active` method checks to see if the current page is active so that 
   = link_to 'About', '/about', class: ( 'is-active' if is_page_active('/about') )
 ```
 
-Get Resources
--------------
+### Get Resources
 
 You can use [Middleman's Sitemap](http://middlemanapp.com/advanced/sitemap/) to get at the various files and assets within your application. Additionally, you can add [Frontmatter](http://middlemanapp.com/basics/frontmatter/) to filter down to only the files you want. For example, only grab "pages".
 
@@ -37,8 +38,7 @@ Next, use the `get_resources` method to select the pages with the `type` attribu
 
 **Note**: By default, the `get_resources` method grabs files with the `type` attribute of `page`.
 
-Pretty Date
------------
+### Pretty Date
 
 The `pretty_date` method formats a date string into a nicely formatted one.
 
@@ -52,8 +52,7 @@ Which compiles to:
 <time>December 12, 2014</time>
 ```
 
-Slugify
--------
+### Slugify
 
 This is a common method used across a variety of programming languages, and it's used to take a string and turn it into a sluggable title that can, for instance, be used in a URL.
 
