@@ -1,5 +1,5 @@
-Middleman Helpers
-=================
+Middleman Snippets
+==================
 
 A collection of useful Middleman snippets for use in [Middleman](https://middlemanapp.com/) and [Baseman](http://github.com/drewbarontini/baseman/) (Middleman starter application).
 
