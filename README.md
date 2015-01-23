@@ -14,6 +14,16 @@ helpers do
 end
 ```
 
+Alternatively, you can create `helpers/custom_helpers.rb` and add your helpers inside of a Ruby module, like so:
+
+```ruby
+module CustomHelpers
+  # Add your helpers here...
+end
+```
+
+They will be automatically included as helpers in Middleman.
+
 ### Active Page
 
 The `is_page_active` method checks to see if the current page is active so that you can apply an active class to an element.
