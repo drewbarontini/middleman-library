@@ -1,3 +1,7 @@
+# ====================================
+#   Helpers
+# ====================================
+
 # Determines if the current page is active
 #
 # == Parameters
