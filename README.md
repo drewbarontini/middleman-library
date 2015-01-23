@@ -3,10 +3,16 @@ Middleman Library
 
 A collection of useful helpers, snippets, and techniques for use in [Middleman](https://middlemanapp.com/) and [Baseman](http://github.com/drewbarontini/baseman/).
 
-config.rb
----------
+helpers.rb
+----------
 
 A collection of helper methods for use inside of `config.rb`.
+
+```ruby
+helpers do
+  # Add your helpers here...
+end
+```
 
 ### Active Page
 
