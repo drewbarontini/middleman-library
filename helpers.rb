@@ -2,20 +2,6 @@
 #   Helpers
 # ====================================
 
-# Determines if the current page is active
-#
-# == Parameters
-#
-# @param page [String] the page to check
-#
-# == Usage
-#
-#   = link_to 'Home', '/', class: ( 'is-active' if is_page_active('/') )
-#
-def is_page_active(page)
-  current_page.url == page
-end
-
 # Grabs a set of resources from Middleman's Sitemap
 #
 # == Parameters
@@ -32,6 +18,20 @@ end
 #
 def get_resources(type = 'page')
   sitemap.resources.select { |resource| resource.data.type == type }
+end
+
+# Determines if the current page is active
+#
+# == Parameters
+#
+# @param page [String] the page to check
+#
+# == Usage
+#
+#   = link_to 'Home', '/', class: ( 'is-active' if is_page_active('/') )
+#
+def is_page_active(page)
+  current_page.url == page
 end
 
 # Formats a date string
